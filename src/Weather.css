@@ -1,0 +1,97 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.weather-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  box-shadow: 3px 5px 5px 3px #f7f6e7;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  color: rgb(112, 117, 122);
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 18px;
+  line-height: 18px;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5px;
+}
+
+small a {
+  color: #068b78;
+  font-weight: bolder;
+}
+
+small a:hover {
+  text-decoration: none;
+  color: #068b78;
+  font-weight: bolder;
+}
+
+input[type="search"] {
+  border: 1px solid #068b78;
+  background-color: #f4f6f6;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 18px;
+  max-width: 100%;
+  color: #068b78;
+  margin-bottom: 4px;
+}
+
+input[type="search"]:hover {
+  border: 1px solid #068b78;
+}
+
+#search-button {
+  border: 1px solid #068b78;
+  padding: 4px 10px;
+  font-size: 18px;
+  margin-left: 5px;
+  border-radius: 4px;
+  background-color: #f7f2f2;
+  color: #068b78;
+}
+
+#search-button:hover {
+  color: #f7f2f2;
+  background-color: #068b78;
+}
+
+#current-button {
+  border: 1px solid #068b78;
+  padding: 4px 10px;
+  font-size: 18px;
+  margin-left: 5px;
+  border-radius: 4px;
+  background-color: #068b78;
+  color: #f7f2f2;
+}
+
+#current-button:hover {
+  color: #068b78;
+  background-color: #f4f6f6;
+}

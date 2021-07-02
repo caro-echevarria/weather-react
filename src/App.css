@@ -2,37 +2,81 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  text-align: center;
+  margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+small a {
+  color: #068b78;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+small a:hover {
+  text-decoration: none;
+  color: #068b78;
+  font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+strong {
+  color: #068b78;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
+}
+
+.weather-temperature .active {
+  color: rgb(112, 117, 122);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast-date,
+.weather-forecast-temperature-min {
+  color: rgb(112, 117, 122);
+}
+
+.weather-temperature a {
+  color: #068b78;
+  font-weight: bolder;
+}
+
+.conditions {
+  text-align: right;
+}
+
+.forecastInfo {
+  text-align: center;
 }
