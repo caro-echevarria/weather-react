@@ -16,6 +16,69 @@ body {
   box-shadow: 3px 5px 5px 3px #f7f6e7;
 }
 
+h1 {
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+h1,
+strong {
+  color: #068b78;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
+}
+
+.weather-temperature .active {
+  color: rgb(112, 117, 122);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast-date,
+.weather-forecast-temperature-min {
+  color: rgb(112, 117, 122);
+}
+
+.weather-temperature a {
+  color: #068b78;
+  font-weight: bolder;
+}
+
+.conditions {
+  text-align: right;
+}
+
+.forecastInfo {
+  text-align: center;
+}
+
 ul {
   padding: 0;
   margin: 0;
